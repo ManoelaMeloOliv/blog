@@ -1,0 +1,147 @@
+ body {
+     font-family: "Times New Roman", Times, serif;
+     background-color: #efebf1;
+     margin: 0;
+     padding: 0;
+ }
+
+header {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;          
+    padding: 20px 40px;            
+    background-color: #fff;         
+    box-shadow: 0 0 8px rgba(0,0,0,0.1); 
+}
+
+h1 {
+    color: #8022b6;
+    font-size: 2em; 
+    margin: 0;      
+}
+
+
+ h2 {
+     color: #3d055e;
+ }
+
+ p {
+     line-height: 1.6;
+ }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+ nav a {
+     text-decoration: none;
+     color: #333;
+     font-weight: bold;
+ }
+
+ nav a:hover {
+     color: #c67fe2;
+     text-decoration: underline;
+ }
+
+ .apresentacao {
+    max-width: 1000px;
+    margin: 40px auto 0 auto; 
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+ .conteudo-principal {
+     max-width: 1000px;
+     margin: 20px auto;
+     padding: 10px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+ }
+
+ article {
+     background: white;
+     padding: 15px;
+     border: 1px solid #ddd;
+     border-radius: 15px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     width: 300px;
+     text-align: center;
+ }
+
+article img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;   
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+
+.formulario-contato {
+    max-width: 900px;           
+    margin: 40px auto;          
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+form label {
+    display: block;         
+    margin-top: 10px;       
+    font-weight: bold;     
+}
+
+input, textarea, button {
+    width: 100%;            
+    padding: 10px;          
+    margin-top: 5px;        
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #8022b6;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 15px;       
+}
+
+button:hover {
+    background-color: #c67fe2;
+}
+
+
+ @media (max-width: 600px) {
+     .conteudo-principal {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     nav li {
+         display: block;
+         margin: 5px 0;
+     }
+ }
