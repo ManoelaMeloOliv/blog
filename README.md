@@ -49,6 +49,7 @@ meu-blog/
 ---
 
 ## 🎬 Demonstração Animada
+  ![Prévia do Projeto](gravacao.gif)
 
 ---
 
